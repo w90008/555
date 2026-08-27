@@ -1,6 +1,7 @@
 CACHE MANIFEST
 # Offline Cache
 index.html
+image.png
 includes/script.js
 includes/style.css
 src/lapse.js
