@@ -7,17 +7,19 @@
   <link rel="stylesheet" href="includes/style.css"> 
 
   <style>
-    .header-image {
+    /* الصورة المضافة */
+    .exploit-image {
       display: block;
       width: 180px;
       height: 180px;
       object-fit: contain;
-      margin: 20px auto 10px;
+      margin: 20px auto 5px auto;
     }
 
+    /* تنسيق الكتابة مع الصورة */
     h1 {
       text-align: center;
-      margin-top: 10px;
+      margin-top: 5px;
     }
 
     #UA {
@@ -27,8 +29,8 @@
 </head> 
 <body> 
 
-  <!-- الصورة المضافة فقط -->
-  <img src="background.png" alt="CSSFontFace" class="header-image">
+  <!-- ضع صورتك باسم image.png بجانب ملف HTML -->
+  <img class="exploit-image" src="image.png" alt="">
 
   <h1>CSSFontFace UAF Exploit</h1> 
   <h3 id="UA">Running on:</h3> 
